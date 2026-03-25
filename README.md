@@ -32,11 +32,11 @@ The script is engineered with a focus on data integrity and standardized output:
 
   The parser targets specific CSS selectors to isolate relevant nodes:  
 
-    * Title: Identifies h1.detail-title.
+   * Title: Identifies h1.detail-title.
 
-    * Timestamp: Locates .detail-time.
+   * Timestamp: Locates .detail-time.
 
-    * Author: Extracts from .detail-author.
+   * Author: Extracts from .detail-author.
 
 **🛠 Data Sanitization (Regex & String Manipulation)**
 
@@ -72,7 +72,7 @@ python main.py
 
 The terminal will prompt for a URL. Copy and paste the target newspaper link:
 
-![](Pictures\url_input.png)
+![](Pictures/url_input.png)
 
 ```Plaintext
 Enter Newspaper URL: https://nld.com.vn/example-article.htm
@@ -88,11 +88,11 @@ Output File: data_chuan_hoa.csv
 
 Status: A console message will confirm "Extraction Successful" along with a preview of the processed data.
 
-![](Pictures\extracted.png)
+![](Pictures/extracted.png)
 
 .csv file after extracted
 
-![](Pictures\csv_file.png)
+![](Pictures/csv_file.png)
 
 
 Author: **Huynh Khoi**
